@@ -24,10 +24,10 @@ const Header = ({ isDarkMode }) => {
                 initial={{ y: -30, opacity: 0 }}
                 whileInView={{ y: 0, opacity: 1 }}
                 transition={{ duration: 0.8, delay: 0.5 }}
-                className='text-3xl sm:text-6xl lg:text-[66px] font-Ovo'>A React Native Developer</motion.h1>
+                className='text-3xl sm:text-6xl lg:text-[66px] font-Ovo'>React Native Developer</motion.h1>
 
             <motion.p className='max-w-2xl mx-auto font-Ovo' initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ duration: 0.6, delay: 0.7 }}>
-                 Frontend Developer | React.js | Next.js | Angular | 4+ Years Experience
+                 React Native | React.js | Next.js | Angular | 4+ Years Experience
             </motion.p>
             <div className='flex flex-col sm:flex-row items-center gap-4 mt-4'>
                 <motion.a

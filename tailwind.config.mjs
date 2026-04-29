@@ -10,6 +10,10 @@ export default {
     extend: {
       colors: {
         darkTheme: "#0f172a",
+        darkHover: "#1e293b",
+        appBlue: "#007AFF",
+        appTeal: "#06B6D4",
+        appPurple: "#8B5CF6",
       },
       fontFamily: {
         Outfit: ["Outfit", "sans-serif"],

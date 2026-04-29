@@ -14,7 +14,7 @@ const About = ({ isDarkMode }) => {
                 initial={{ opacity: 0, y: -20 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 1, delay: 0.3 }}
-                className='text-center mb-2 text-lg font-Ovo'>Introduction</motion.h4>
+                className='text-center mb-2 text-lg font-Ovo text-appBlue'>Who I Am</motion.h4>
             <motion.h2
                 initial={{ opacity: 0, y: -20 }}
                 whileInView={{ opacity: 1, y: 0 }}
@@ -24,7 +24,7 @@ const About = ({ isDarkMode }) => {
                 initial={{ opacity: 0 }}
                 whileInView={{ opacity: 1 }}
                 transition={{ duration: 0.8 }}
-                className='w-full flex flex-col lg:flex-row items-center gap-20 my-20'>
+                className='w-full flex flex-col lg:flex-row items-center gap-16 my-20'>
                 <motion.div
                     initial={{ opacity: 0, scale: 0.9 }}
                     whileInView={{ opacity: 1, scale: 1 }}
@@ -58,7 +58,7 @@ performance optimization, clean architecture, and delivering high-quality user e
                         initial={{ y: 20, opacity: 0 }}
                         whileInView={{ y: 0, opacity: 1 }}
                         transition={{ duration: 0.5, delay: 1.3 }}
-                        className={`my-6 text-gray-700 font-Ovo ${isDarkMode ? "dark:text-white/80" : ""}`}>Tool I Use</motion.h4>
+                        className={`my-6 text-gray-700 font-Ovo ${isDarkMode ? "dark:text-white/80" : ""}`}>Tools I Use</motion.h4>
                     <motion.ul
                         initial={{ opacity: 0 }}
                         whileInView={{ opacity: 1 }}
