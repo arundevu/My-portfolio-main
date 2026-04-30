@@ -37,7 +37,7 @@ const Header = ({ isDarkMode }) => {
                 </motion.a>
                 <motion.a
                     initial={{ y: 30, opacity: 0 }} whileInView={{ y: 0, opacity: 1 }} transition={{ duration: 0.6, delay: 1.2}}
-                    href="/Arun_Devu.pdf" download className={`px-10 py-3 border rounded-full border-gray-500 flex items-center gap-2 ${isDarkMode ? "dark:bg-white dark:text-black" : ""}`}> My resume
+                    href="/ArunDevu.pdf" download className={`px-10 py-3 border rounded-full border-gray-500 flex items-center gap-2 ${isDarkMode ? "dark:bg-white dark:text-black" : ""}`}> My resume
                     <Image src={assets.download_icon} alt='profile' className='w-4' />
                 </motion.a>
             </div>
